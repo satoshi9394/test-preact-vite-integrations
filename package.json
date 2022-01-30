@@ -1,0 +1,18 @@
+{
+  "name": "preat-test-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev:app2": "vite --mode app2 --port 3001",
+    "dev:app1": "vite --mode app1 --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.5.15"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.1.5",
+    "vite": "^2.7.2",
+    "vite-plugin-html": "^3.0.3"
+  }
+}
